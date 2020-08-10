@@ -30,3 +30,7 @@ principalContainer.addEventListener("click", () => {
     principalPage.remove();
   }, 1000);
 });
+
+const redireccionar = (e) => {
+  location.href = e;
+};
