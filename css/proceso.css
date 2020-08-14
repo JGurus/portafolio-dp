@@ -43,9 +43,11 @@
 .proceso-item:nth-child(2) {
   bottom: -5%;
 }
+
 .proceso-item:nth-child(3) {
   bottom: -10%;
 }
+
 .proceso-item:nth-child(4) {
   bottom: -15%;
 }
@@ -76,7 +78,7 @@
   text-align: center;
   font-size: 0.3rem;
   position: absolute;
-  bottom: 12%;
+  top: 25%;
   left: 50%;
   transform: translateX(-50%);
   opacity: 0;
@@ -94,4 +96,30 @@
 
 .proceso-item:hover p {
   opacity: 1;
+}
+
+.basico {
+  width: 100%;
+  display: flex;
+}
+
+.basico-container h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px 6px #39435c;
+}
+
+.basico-cards {
+  margin: 5% 0;
+}
+
+.basico-cards h4 {
+  font-size: 1.5rem;
+}
+
+.basico-cards p {
+  margin: 5% 0;
+  text-align: center;
 }

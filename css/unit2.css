@@ -1,0 +1,110 @@
+.menu {
+  display: flex;
+  height: 26px;
+  width: 418px;
+  justify-content: space-evenly;
+  color: white;
+  position: absolute;
+  right: 5%;
+  top: 15%;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.icons {
+  height: 26px;
+  width: 26px;
+}
+
+a {
+  align-self: center;
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 12rem;
+  background: linear-gradient( 180deg, rgba(0, 102, 116, 1) 0%, rgba(84, 157, 166, 1) 100%);
+  position: absolute;
+  z-index: 100;
+}
+
+.title {
+  font-size: 5rem;
+  color: white;
+  text-shadow: 6px 6px 6px #39435c;
+  text-align: center;
+  position: relative;
+  top: 58.5%;
+}
+
+section {
+  padding-top: 12rem;
+}
+
+section article {
+  margin: 100px auto 0;
+  width: 1140px;
+  color: white;
+  text-shadow: 3px 3px 6px rgb(57, 67, 92);
+}
+
+section article h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+section article p {
+  margin-top: 30px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+section h1 {
+  font-size: 5rem;
+  color: white;
+  text-shadow: 6px 6px 6px #39435c;
+  text-align: center;
+  margin: 100px 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.modal {
+  background-color: white;
+  height: 300px;
+  width: 60%;
+  border-radius: 20px;
+  box-shadow: 0px 6px 18px #39435c;
+  margin: 50px auto 100px;
+  position: relative;
+}
+
+.modal h2 {
+  font-size: 4rem;
+  color: #39435c;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.modal p {
+  display: inline-block;
+  line-height: 30px;
+  width: 40%;
+  margin: 50px 0;
+  padding: 0 2.5%;
+  text-align: center;
+}
+
+.modal img {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 28%;
+  right: 10%;
+}
