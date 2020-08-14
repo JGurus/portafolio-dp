@@ -34,8 +34,8 @@
 }
 
 .modal img {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   position: absolute;
   top: 22.5%;
   right: 5%;
@@ -49,38 +49,139 @@
   position: absolute;
   top: 28%;
   left: 7%;
+  font-size: 1.5rem;
 }
 
 .modal1 {
-  top: 130%;
+  top: 88%;
 }
 .modal2 {
-  top: 130%;
+  top: 88%;
 }
 .modal3 {
-  top: 130%;
+  top: 88%;
 }
 .modal4 {
-  top: 187%;
+  top: 88%;
 }
 .modal5 {
-  top: 187%;
+  top: 88%;
 }
 .modal6 {
-  top: 187%;
+  top: 124.5%;
 }
 .modal7 {
-  top: 244.5%;
+  top: 124.5%;
 }
 .modal8 {
-  top: 244.5%;
+  top: 124.5%;
 }
 .modal9 {
-  top: 244.5%;
+  top: 124.5%;
 }
 .modal10 {
-  top: 302%;
+  top: 124.5%;
 }
 .modal11 {
-  top: 302%;
+  top: 150%;
+}
+
+@media screen and (max-width: 1169px) {
+  .modal {
+    height: 60%;
+    width: 80%;
+  }
+
+  .modal img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .modal p {
+    font-size: 1rem;
+  }
+
+  .modal1 {
+    top: 141%;
+  }
+  .modal2 {
+    top: 141%;
+  }
+  .modal3 {
+    top: 195%;
+  }
+  .modal4 {
+    top: 195%;
+  }
+  .modal5 {
+    top: 250%;
+  }
+  .modal6 {
+    top: 250%;
+  }
+  .modal7 {
+    top: 307%;
+  }
+  .modal8 {
+    top: 307%;
+  }
+  .modal9 {
+    top: 363%;
+  }
+  .modal10 {
+    top: 363%;
+  }
+  .modal11 {
+    top: 418%;
+  }
+}
+
+@media screen and (max-width: 1559px) {
+  .modal {
+    height: 60%;
+    width: 60%;
+  }
+
+  .modal img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .modal p {
+    font-size: 1rem;
+  }
+
+  .modal1 {
+    top: 141%;
+  }
+  .modal2 {
+    top: 141%;
+  }
+  .modal3 {
+    top: 141%;
+  }
+  .modal4 {
+    top: 197%;
+  }
+  .modal5 {
+    top: 197%;
+  }
+  .modal6 {
+    top: 197%;
+  }
+  .modal7 {
+    top: 252%;
+  }
+  .modal8 {
+    top: 252%;
+  }
+  .modal9 {
+    top: 252%;
+  }
+  .modal10 {
+    top: 308%;
+  }
+  .modal11 {
+    top: 308%;
+  }
 }
